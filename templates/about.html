@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" /> -->
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" /> 
 </head>
 <body>
- <h1>Joel Rhoden</h1>
+<img src= "{{ url_for('static', filename='image/unnamed.png' ) }}" alt="" >
+ <h1>JOEL RHODEN</h1>
  <p>I am a 20 year old second year student at the University of the West Indies. 
     I am currently pursuing a major in Computer Science and a minor in Geography. 
     In the future, I would like to become a GIS Software Engineer or a Pilot. 
